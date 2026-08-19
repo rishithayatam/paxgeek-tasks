@@ -1,0 +1,14 @@
+name: Qwen Local Model
+version: 0.0.1
+schema: v1
+
+models:
+  - name: Qwen 2.5 1.5B
+    provider: openai
+    model: Qwen/Qwen2.5-1.5B-Instruct
+    apiBase: YOUR_NGROK_API_URL/v1
+    apiKey: unused
+    roles:
+      - chat
+      - edit
+      - apply
